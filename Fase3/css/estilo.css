@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(72, 175, 216);
+    background-color: #48afd8;
     padding: 20px;
 }
 nav{
@@ -12,10 +12,6 @@ section{
 article{
     background-color: antiquewhite;
     grid-column: 1/5;
-}
-aside{
-    background-color: antiquewhite;
-    padding: 30px;
 }
 footer{
     background-color: cornflowerblue;
