@@ -1,29 +1,29 @@
 header{
-    background-color: #48afd8;
+    background-color: #318CE7;
     padding: 20px;
 }
 nav{
-    background-color: rgb(101, 192, 165);
+    background-color: #afcdea;
 }
 section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 article{
-    background-color: antiquewhite;
+    background-color: #87a1ab;
     grid-column: 1/4;
 }
 aside{
-    background-color: antiquewhite;
+    background-color: #a7bcf7;
     padding: 30px;
     grid-column: 4/5;
 }
 footer{
-    background-color: cornflowerblue;
+    background-color: #688391;
     padding: 10px;
 }
 body{
-    background-color: beige;
+    background-color: #c8dfe2;
 }
 .navegation ul{
     list-style: none;
