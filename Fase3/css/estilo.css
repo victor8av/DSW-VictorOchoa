@@ -11,7 +11,12 @@ section{
 }
 article{
     background-color: antiquewhite;
-    grid-column: 1/5;
+    grid-column: 1/4;
+}
+aside{
+    background-color: antiquewhite;
+    padding: 30px;
+    grid-column: 4/5;
 }
 footer{
     background-color: cornflowerblue;
