@@ -1,0 +1,75 @@
+header{
+    background-color: #318CE7;
+    padding: 20px;
+}
+nav{
+    background-color: #afcdea;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: #87a1ab;
+    grid-column: 1/4;
+}
+aside{
+    background-color: #a7bcf7;
+    padding: 30px;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #688391;
+    padding: 10px;
+}
+body{
+    background-color: #c8dfe2;
+}
+.navegation ul{
+    list-style: none;
+}
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu > li{
+    display: inline-block;
+    position: relative;
+}
+.menu > li >a{
+    background-color: rgb(101, 192, 165);
+    display: block;
+    padding: 20px 80px;
+    color: #1b1b1b;
+    font-family:"Verdana, Geneva, Tahoma, sans-serif";
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: darkmagenta;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(101, 192, 165);
+    min-width: 140%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 20px ;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu {
+    display: block;
+    position: relative;
+}
